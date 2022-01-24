@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@softwareventures/template-webpack-project",
   "version": "0.0.0-development",
   "description": "Template for TypeScript webpack projects",
@@ -70,5 +69,8 @@
   "release": {
     "extends": "@softwareventures/semantic-release-config"
   },
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
 }
