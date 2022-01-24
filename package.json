@@ -3,7 +3,11 @@
   "name": "@softwareventures/template-webpack-project",
   "version": "0.0.0-development",
   "description": "Template for TypeScript webpack projects",
-  "keywords": ["template", "webpack", "TypeScript"],
+  "keywords": [
+    "template",
+    "webpack",
+    "TypeScript"
+  ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/template-webpack-project",
   "bugs": "https://github.com/softwareventures/template-webpack-project/issues",
@@ -14,6 +18,8 @@
     "build": "webpack --env production",
     "fix": "eslint . --fix && prettier --write .",
     "lint": "eslint . && prettier --check .",
+    "prepare": "husky install",
+    "pre-commit": "precise-commits",
     "semantic-release": "semantic-release",
     "start": "webpack serve --open",
     "test": "ava"
@@ -27,12 +33,14 @@
   },
   "devDependencies": {
     "@softwareventures/eslint-config": "4.3.4",
+    "@softwareventures/precise-commits": "2.0.16",
     "@softwareventures/prettier-config": "2.0.0",
     "@softwareventures/semantic-release-config": "2.0.0",
     "@softwareventures/webpack-config": "4.0.2",
     "ava": "4.0.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.7.0",
+    "husky": "7.0.4",
     "prettier": "2.5.1",
     "semantic-release": "19.0.2",
     "ts-loader": "9.2.6",
