@@ -17,7 +17,7 @@
     "pre-commit": "precise-commits",
     "build": "webpack --env production",
     "fix": "eslint . --fix && prettier --write .",
-    "lint": "eslint . && prettier --check .",
+    "lint": "tsc && eslint . && prettier --check .",
     "prepare": "husky install",
     "semantic-release": "semantic-release",
     "start": "webpack serve --open",
