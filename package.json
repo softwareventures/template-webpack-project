@@ -12,6 +12,7 @@
   "bugs": "https://github.com/softwareventures/template-webpack-project/issues",
   "repository": "github:softwareventures/template-webpack-project",
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "pre-commit": "precise-commits",
     "build": "webpack --env production",
@@ -69,7 +70,6 @@
   "release": {
     "extends": "@softwareventures/semantic-release-config"
   },
-  "type": "module",
   "publishConfig": {
     "access": "public"
   }
