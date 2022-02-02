@@ -565,20 +565,20 @@
   dependencies:
     tslib "2.3.0"
 
-"@softwareventures/tsconfig@^6.0.0-alpha.2":
-  version "6.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-6.0.0-alpha.4.tgz#b818894d87ad5d9d82b498ac71d3ad03f6580b7d"
-  integrity sha512-gcujWlSVV0FA9DyCh6ob9SSCkqB653iK+73pi2AFD3cn8bAVC3DE0BtnSi3Nemv1GYwKep51buPIM19tQqSibA==
+"@softwareventures/tsconfig@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-6.0.0.tgz#af2409b589ff2171fda173a2685b34eedc9cdeeb"
+  integrity sha512-ZPZgEZqbnZ1ZRlj0oZEaXdyQD8us4AADYVaYFwNgGKbHe2O/u9M4IEpqzvgC6QER1S3DSH0XSXS6WODyJhyvlg==
 
-"@softwareventures/webpack-config@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@softwareventures/webpack-config/-/webpack-config-4.0.3.tgz#a1ac00e1bca79b89a1f54521bc1bc17e8d79c2e6"
-  integrity sha512-34MQ81hS46gn9uiz1HsSfNEYKGCRVwZ521UG76UuZnE1ofMsMz0Ye3AjlVKpQQypCpK16//6rEi77gUTgYw6Gw==
+"@softwareventures/webpack-config@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@softwareventures/webpack-config/-/webpack-config-4.0.4.tgz#449d328dd5e15903d1199d700f51ed68d2582e54"
+  integrity sha512-HdcvLYUIKKdToXe8wxDS1AtmePirJwiOXmI06ceNM4NZcnR3CTigHyjONntzTXRnAtPcXD9mqGOTa9dDkTZKrQ==
   dependencies:
     "@softwareventures/array" "5.0.0"
     "@softwareventures/dictionary" "^0.7.1 || ^0.8.0 || ^1.0.0"
     "@softwareventures/nullable" "^2.0.0"
-    "@softwareventures/tsconfig" "^6.0.0-alpha.2"
+    "@softwareventures/tsconfig" "^6.0.0"
     clean-webpack-plugin "*"
     css-loader "*"
     cssnano "*"
