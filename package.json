@@ -19,7 +19,6 @@
     "fix": "tsc && eslint . --fix && prettier --write .",
     "lint": "tsc && eslint . && prettier --check .",
     "prepare": "husky install",
-    "semantic-release": "semantic-release",
     "start": "webpack serve --open",
     "test": "ava"
   },
