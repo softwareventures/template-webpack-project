@@ -27,7 +27,7 @@
     "node": "^14 || ^16 || >=17"
   },
   "dependencies": {
-    "@types/webpack-env": "1.16.4",
+    "@types/webpack-env": "1.17.0",
     "tslib": "2.4.0"
   },
   "devDependencies": {
