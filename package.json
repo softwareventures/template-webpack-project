@@ -14,7 +14,6 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "pre-commit": "precise-commits",
     "build": "webpack --env production",
     "commit": "cz",
     "fix": "tsc && eslint . --fix && prettier --write .",
