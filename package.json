@@ -24,7 +24,7 @@
     "test": "ava"
   },
   "engines": {
-    "node": "^14 || ^16 || >=17"
+    "node": "^14 || ^16 || >=18"
   },
   "dependencies": {
     "@types/webpack-env": "1.17.0",
