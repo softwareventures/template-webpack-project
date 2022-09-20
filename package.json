@@ -17,8 +17,8 @@
     "build": "webpack --env production",
     "commit": "cz",
     "fix": "tsc && eslint . --fix && prettier --write .",
-    "lint": "tsc && eslint . && prettier --check .",
     "postinstall": "husky install",
+    "lint": "tsc && eslint . && prettier --check .",
     "test": "ava"
   },
   "engines": {
@@ -80,8 +80,8 @@
   "release": {
     "extends": "@softwareventures/semantic-release-config"
   },
+  "packageManager": "yarn@3.2.3",
   "publishConfig": {
     "access": "public"
-  },
-  "packageManager": "yarn@3.2.3"
+  }
 }
