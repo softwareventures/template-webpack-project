@@ -862,6 +862,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@softwareventures/array@npm:6.0.3":
+  version: 6.0.3
+  resolution: "@softwareventures/array@npm:6.0.3"
+  dependencies:
+    "@softwareventures/nullable": ^1.0.0 || ^2.0.0 || ^3.0.0
+    "@softwareventures/ordered": ^1.1.0 || ^2.0.0
+    tslib: ^2.0.0
+  checksum: 2b5154c84dd1fbd30fafbd6237e39408fd2b6586b84fa99949774661275582973cb8ec0b8f04d3f5cf9ed460edd965d05eb63d002f5ec76ca5fc2d1a40426a69
+  languageName: node
+  linkType: hard
+
 "@softwareventures/dictionary@npm:^0.7.1 || ^0.8.0 || ^1.0.0 || ^2.0.0":
   version: 2.0.1
   resolution: "@softwareventures/dictionary@npm:2.0.1"
@@ -891,7 +902,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/nullable@npm:3.0.0, @softwareventures/nullable@npm:^2.0.0 || ^3.0.0":
+"@softwareventures/nullable@npm:3.0.0, @softwareventures/nullable@npm:^1.0.0 || ^2.0.0 || ^3.0.0, @softwareventures/nullable@npm:^2.0.0 || ^3.0.0":
   version: 3.0.0
   resolution: "@softwareventures/nullable@npm:3.0.0"
   dependencies:
@@ -915,6 +926,15 @@ __metadata:
   dependencies:
     tslib: ^1.9.3 || ^2.0.0 || ^2.1.0
   checksum: a68d969b9992125f338153f0070beeb60d25e3e91735f8229da900f9a5f20fc07ef7387476b87acb95f955172826006f1154d39fa5c9974089a6edba7b6e29bd
+  languageName: node
+  linkType: hard
+
+"@softwareventures/ordered@npm:^1.1.0 || ^2.0.0":
+  version: 2.0.0
+  resolution: "@softwareventures/ordered@npm:2.0.0"
+  dependencies:
+    tslib: ^1.9.3 || ^2.0.0 || ^2.1.0
+  checksum: b6f87b980eaaf498efce7642a17e13ba52c5c36fabc42fdca14d2d64dcda1a1424c4c67b4263bf51eab0654c6eae6782f2d4427c51eda4e7431214625e0c9fef
   languageName: node
   linkType: hard
 
@@ -970,7 +990,7 @@ __metadata:
     "@softwareventures/precise-commits": 3.0.4
     "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 3.0.0
-    "@softwareventures/webpack-config": 5.0.9
+    "@softwareventures/webpack-config": 5.0.10
     "@types/node": 17.0.45
     "@types/webpack-env": 1.18.0
     "@typescript-eslint/eslint-plugin": 5.43.0
@@ -1007,11 +1027,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/webpack-config@npm:5.0.9":
-  version: 5.0.9
-  resolution: "@softwareventures/webpack-config@npm:5.0.9"
+"@softwareventures/webpack-config@npm:5.0.10":
+  version: 5.0.10
+  resolution: "@softwareventures/webpack-config@npm:5.0.10"
   dependencies:
-    "@softwareventures/array": 5.3.0
+    "@softwareventures/array": 6.0.3
     "@softwareventures/dictionary": ^0.7.1 || ^0.8.0 || ^1.0.0 || ^2.0.0
     "@softwareventures/nullable": ^2.0.0 || ^3.0.0
     "@softwareventures/tsconfig": ^6.0.0 || ^7.0.0
@@ -1040,7 +1060,7 @@ __metadata:
     typescript: ^4.2.0
     webpack: ^5.21.2
     webpack-dev-server: ^4.0.0
-  checksum: 42a80366ace90dbfe2af04fb807296870f4f9f7a63d0f2aff0d2721edebef69ec9e87fcb27f7996cecff28262dbe561cc85851e739153cbf984c32c309e57046
+  checksum: 6be478cbcc6c0f2052a6f8eafbe9cb5db6177e4d943b388f9b8abc3e4b10f22c39ee9cbc74fac9cfe49b4db0b099125faf8bb7afba248b1d6e44dca3a502d212
   languageName: node
   linkType: hard
 
