@@ -4,6 +4,7 @@
 package-lock.json
 yarn-error.log
 npm-debug.log*
+/.yarn
 
 # Personal WebStorm IDE files
 /.idea/workspace.xml
