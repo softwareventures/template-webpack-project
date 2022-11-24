@@ -967,7 +967,7 @@ __metadata:
     "@softwareventures/precise-commits": 3.0.5
     "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 3.1.0
-    "@softwareventures/webpack-config": 5.0.10
+    "@softwareventures/webpack-config": 5.0.11
     "@types/node": 17.0.45
     "@types/webpack-env": 1.18.0
     "@typescript-eslint/eslint-plugin": 5.44.0
@@ -1004,9 +1004,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/webpack-config@npm:5.0.10":
-  version: 5.0.10
-  resolution: "@softwareventures/webpack-config@npm:5.0.10"
+"@softwareventures/webpack-config@npm:5.0.11":
+  version: 5.0.11
+  resolution: "@softwareventures/webpack-config@npm:5.0.11"
   dependencies:
     "@softwareventures/array": 6.0.3
     "@softwareventures/dictionary": ^0.7.1 || ^0.8.0 || ^1.0.0 || ^2.0.0
@@ -1037,7 +1037,7 @@ __metadata:
     typescript: ^4.2.0
     webpack: ^5.21.2
     webpack-dev-server: ^4.0.0
-  checksum: 6be478cbcc6c0f2052a6f8eafbe9cb5db6177e4d943b388f9b8abc3e4b10f22c39ee9cbc74fac9cfe49b4db0b099125faf8bb7afba248b1d6e44dca3a502d212
+  checksum: b0955b98413ced0d3d3fbc144d454f84f259c243ea16e486b11f0e5bdbdaf4e9460bab61899d637976b99c31b9d8b42b2bf0442f5bb315c6586034a2b575d0ac
   languageName: node
   linkType: hard
 
