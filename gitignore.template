@@ -1,9 +1,5 @@
 # Build output
-/node_modules
 /dist
-package-lock.json
-yarn-error.log
-npm-debug.log*
 
 # Yarn 2
 /node_modules
