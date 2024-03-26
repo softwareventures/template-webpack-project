@@ -1080,7 +1080,7 @@ __metadata:
     "@softwareventures/semantic-release-config": "npm:3.1.0"
     "@softwareventures/webpack-config": "npm:5.1.0"
     "@types/node": "npm:17.0.45"
-    "@types/webpack-env": "npm:1.18.3"
+    "@types/webpack-env": "npm:1.18.4"
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
     ava: "npm:5.3.1"
@@ -1443,10 +1443,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-env@npm:1.18.3":
-  version: 1.18.3
-  resolution: "@types/webpack-env@npm:1.18.3"
-  checksum: 10c0/4e29bef49ae5dbac0f9a14ffe27a493ac27c2eb38ac62a1d8dcad33195980cf7d9223ecc9c47b71a9e24cd2f0cf596acbb0350e067037c6801f974f98373885c
+"@types/webpack-env@npm:1.18.4":
+  version: 1.18.4
+  resolution: "@types/webpack-env@npm:1.18.4"
+  checksum: 10c0/3fa77dbff0ed71685404576b0a1cf74587567fe2ee1cfd11d56d6eefcab7a61e4c9ead0eced264e289d2cf0fc74296dbd55ed6c95774fe0fd6264d156c5a59f0
   languageName: node
   linkType: hard
 
