@@ -16,6 +16,9 @@ yarn-error.log
 package-lock.json
 npm-debug.log*
 
+# tsimp
+/.tsimp
+
 # Personal WebStorm IDE files
 /.idea/workspace.xml
 /.idea/tasks.xml
