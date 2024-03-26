@@ -17,7 +17,7 @@
     "build": "webpack --env production",
     "commit": "cz",
     "fix": "tsc && eslint . --fix && prettier --write .",
-    "postinstall": "husky install",
+    "postinstall": "husky",
     "lint": "tsc && eslint . && prettier --check .",
     "prepack": "tsc && pinst --disable",
     "postpack": "pinst --enable",
