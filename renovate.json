@@ -1,3 +1,9 @@
 {
-  "extends": ["github>softwareventures/renovate-config:app"]
+  "extends": ["github>softwareventures/renovate-config:app"],
+  "packageRules": [
+    {
+      "matchManagers": ["npm", "github-actions"],
+      "semanticCommitType": "feat"
+    }
+  ]
 }
