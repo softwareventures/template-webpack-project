@@ -2,6 +2,7 @@
   <dictionary name="djc">
     <words>
       <w>commitlint</w>
+      <w>corepack</w>
     </words>
   </dictionary>
 </component>
