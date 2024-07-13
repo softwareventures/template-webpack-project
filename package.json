@@ -55,7 +55,7 @@
     "inquirer": "9.3.5",
     "pinst": "3.0.0",
     "prettier": "3.3.3",
-    "semantic-release": "23.1.1",
+    "semantic-release": "24.0.0",
     "semantic-release-pinst": "1.0.4",
     "ts-loader": "9.5.1",
     "tsimp": "2.0.11",
