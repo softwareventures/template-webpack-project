@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/webpack-env": "1.18.5",
-    "tslib": "2.6.3"
+    "tslib": "2.7.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.4.0",
