@@ -59,7 +59,7 @@
     "semantic-release-pinst": "1.0.4",
     "ts-loader": "9.5.1",
     "tsimp": "2.0.12",
-    "typescript": "5.7.2",
+    "typescript": "5.7.3",
     "webpack": "5.97.1",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "5.2.0"
